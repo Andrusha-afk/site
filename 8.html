@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Анкета на курсы</title>
+</head>
+<body>
+    <h1>Анкета для записи на курсы</h1>
+    <form>
+        <label>ФИО:</label><br>
+        <input type="text"><br><br>
+        
+        <label>Дата рождения:</label><br>
+        <input type="date"><br><br>
+        
+        <label>Пол:</label><br>
+        <input type="radio" name="gender" id="male">
+        <label for="male">Мужской</label>
+        <input type="radio" name="gender" id="female">
+        <label for="female">Женский</label><br><br>
+        
+        <label>Выбранный курс:</label><br>
+        <select>
+            <option>HTML и CSS</option>
+            <option>JavaScript</option>
+            <option>Python</option>
+        </select><br><br>
+        
+        <label>Комментарий:</label><br>
+        <textarea rows="4" cols="50"></textarea><br><br>
+        
+        <button type="submit">Отправить</button>
+    </form>
+</body>
+</html>
